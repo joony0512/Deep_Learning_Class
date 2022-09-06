@@ -13,4 +13,22 @@ Step 2 딥러닝의 원리
   - 추론을 위한 모델을 구성하고 평가
 - 해결하고 싶은 문제 예제 : 사람이 그린 8이라는 숫자(inputs)를 어떻게 컴퓨터(computation)가 8이라고 결과(output)를 낼 수 있을까
   - 일반 프로그래밍의 경우 (딥러닝아님) : 규칙을 코딩함 --> 매우 복잡하게 if문 구성해서 해결하는것처럼 보일 수 있음
-  - 딥러닝의 경우 : 숫자8의 그림을 딥러닝모델을 거쳐 8이라고 학습하고, 필기체를 인지해 8이 디지털 8로 나오게 됨.![KakaoTalk_20220906_134648422](https://user-images.githubusercontent.com/109457820/188549340-3c051769-be9e-40d9-b166-7e65314578f4.png)
+  - 딥러닝의 경우 : 숫자8의 그림을 딥러닝모델을 거쳐 8이라고 학습하고, 필기체를 인지해 8이 디지털 8로 나오게 됨.
+  - ![KakaoTalk_20220906_134648422](https://user-images.githubusercontent.com/109457820/188549577-31800f03-a6ce-4bd7-8a4f-5cb68ef536a1.png)
+
+
+Step 3 딥러닝이 주로 다루는 문제들
+- 1950s후반에 뉴럴네트워크(퍼셉트론)이 나타남. 인간의 뇌를 표현할 수 있다고 생각함. 실패함
+- 1980s초반에 Decision Tree : 효과적으로 if문을 사용하는 방법, 중반에 다시 뉴럴네트워크가 등장함 : MLP--> 원래 해결하지 못하던 문제들을 해결함 
+- 1990s중반에 Support Vector Machine : 선형대수기반 방법
+- 2000s중반에 Logistic Regression
+
+- Association Rule Mining : 추천시스템
+- Supervised Learning : 지도학습, 대부분 산업계의 문제들 해결, 문제와 정답이 주어짐
+  - Classification : 분류 eg.뉴스 종류
+  - Regression : 연속적인 값들 eg.집값
+- Unsupervised Learning : 정답활용 x, 문제만을 보고 무언가 해내기
+  - Clustering
+  - Feature Extraction : 문제를 해결하는 핵심요소 추출
+  - Dimensionality Reduction : 큰 문제를 효과적으로 줄이는 방법
+- Reinforcement Learning : 알파고
