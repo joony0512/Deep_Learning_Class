@@ -18,11 +18,13 @@ Step 2 딥러닝의 원리
 
 
 Step 3 딥러닝이 주로 다루는 문제들
+
 1)
 - 1950s후반에 뉴럴네트워크(퍼셉트론)이 나타남. 인간의 뇌를 표현할 수 있다고 생각함. 실패함
 - 1980s초반에 Decision Tree : 효과적으로 if문을 사용하는 방법, 중반에 다시 뉴럴네트워크가 등장함 : MLP--> 원래 해결하지 못하던 문제들을 해결함 
 - 1990s중반에 Support Vector Machine : 선형대수기반 방법
 - 2000s중반에 Logistic Regression
+
 2)
 - Association Rule Mining : 추천시스템
 - Supervised Learning : 지도학습, 대부분 산업계의 문제들 해결, 문제와 정답이 주어짐
