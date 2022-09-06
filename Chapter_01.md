@@ -49,4 +49,11 @@ Step 3 딥러닝이 주로 다루는 문제들
   - 주어진 데이터의 정보를 활용, 패턴을 추출하거나 관계를 구성
   - 명확하게 정해진 정답은 없음
   - eg. K-means Clustering
-- 
+- ![image](https://user-images.githubusercontent.com/109457820/188552220-83a67612-be07-4a66-be33-7ffac391e4bb.png)
+
+- Reinforcement Learning
+  - Unsupervised Learning의 일종
+  - 그러나 정해진 데이터에 의해 학습되는것은 아님
+  - 보상/벌점의 개념을 모델링
+  - 그 후 모델의 행위에 맞게 일어나는 경험을 학습
+  - eg. 슈퍼마리오의 어떤 상황에 대한 행동들에 보상/벌점을 부여하고 계속 학습시키면 인간보다 더 잘하게 됨.
