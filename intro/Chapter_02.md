@@ -18,3 +18,13 @@ Step 1. 딥러닝의 구조 - 집값모델
    >나쁨/틀림을 정의, wrongness를 minimize 시키는 전략
   - Cost/Loss function 사용
    >h(x)의 예측 y'와 주어진 학습셋의 y의 차이를 최소화
+
+Step 2. 딥러닝의 구조 - 비용함수
+
+- J(θ) - cost function
+    - θ =[θ0 θ1]
+- 즉 J(θ0,θ1)
+    
+    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b469349e-8cde-4ddb-be76-dd6917a4fcf4/Untitled.png)
+    
+- 과정
