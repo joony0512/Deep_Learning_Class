@@ -24,7 +24,8 @@ Step 2. 딥러닝의 구조 - 비용함수
 - J(θ) - cost function
     - θ =[θ0 θ1]
 - 즉 J(θ0,θ1)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b469349e-8cde-4ddb-be76-dd6917a4fcf4/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/109457820/190376872-4e370308-00b7-41f0-90d1-b9528438bcb6.png)
     
 - 과정
+![image](https://user-images.githubusercontent.com/109457820/190376835-c714deb6-5f02-47f5-b21d-7f22fe1cf1f7.png)
+
