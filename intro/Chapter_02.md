@@ -33,10 +33,8 @@ Step 3. 딥러닝의 구조 - 경사하강법
 
 - cost 함수의 효율적인 θ 찾기 위해 편미분하기
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ae587b9-df2b-490d-a3ef-c7f560b9a1d4/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0fc93f2c-8dfd-4cbb-8616-58c50bb66f00/Untitled.png)
-    
+![image](https://user-images.githubusercontent.com/109457820/190379774-e2c3340d-a811-4601-ab60-f0330105f47d.png)    
+![image](https://user-images.githubusercontent.com/109457820/190379824-2653089a-f220-4094-98ca-f6ef545633c4.png)    
 - α로 수렴속도 결정
 - 경사하강법 두가지
     - MCM : random으로 θ 결정 →빙빙돌게됨
