@@ -5,7 +5,7 @@
 ## CH 02. 데이터 타입과 컬렉션
 
 list tuple dict set
-## CH 01. 환경설정
+
 
 //파이썬 개발환경 설정
 # hello python
