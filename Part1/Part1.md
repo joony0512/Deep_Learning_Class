@@ -455,7 +455,224 @@ print(_sum/len(a))
 
 - def 이해 , 간단한 함수 만들기
 - return 이해
-- 
+
+```python
+#함수의 이해 및 활용, 기본파라미터, 키워드 파라미터이해, 변수의 스코프이해
+#def
+def add(x, y):
+    n= x + y
+    return n
+
+l=len([1,2,3])
+c= add(300, 30)
+print(l)
+print(c)
+
+def test():
+    print('haha')
+    print('good')
+    return 100
+a= test()
+print(a)
+
+def test1(x, y):
+    print(x,y)
+    n= x + y
+    return n
+a= test1(100, 200)
+print(a)
+
+def add(x,y=1,z=5):
+    a= x+y+z
+    return a
+print(add(2))
+print(add(10,20))
+print(add(10,20,30))
+
+def test2(x,y,z):
+    a= x+y+z
+    return a
+print(test2(x=1, y=2, z=5))
+
+def weird_multiply(x,y):
+    if x>10:
+        return x*y
+    
+    print(x+y)
+    return (x*2)*y
+    print(x*2)*y
+    
+a= weird_multiply(1,2)
+b= weird_multiply(12,2)
+print(a)
+print('---------')
+print(b)
+
+def weird_multiply(x,y):
+    if x>10:
+        return 
+    
+    print(x+y)
+    return (x*2)*y
+    
+    
+c= weird_multiply(12,5)
+print(c)
+
+def weird_multiply(x,y):
+    if x>10:
+        return x*y
+ 
+c= weird_multiply(2,5)
+print(c)
+
+def add_mul(x,y):
+    s=x+y
+    m=x*y
+    return s, m
+c=add_mul(20, 3)
+d, e = add_mul(20, 3)
+print(c)
+print(type(c))
+print(d, e)
+
+//변수의 범위
+num1=10
+num2=20
+def test(num1, num2):
+    print(num1, num2)
+    return num1 + num2
+test(30, 40)
+print(num1, num2)
+
+//가변길이 인자
+#**kwargs--> *args라 표기 많이함
+#type : tuple
+#개수 상관 없이 인자에 입력 가능하게 함
+
+def test(*args): # argument # type은 튜플로 됨
+    print(type(x))
+test()
+
+def test(*args):
+    for i in args:
+        print(i)
+test(1,2,3,4,5)
+
+#Keyword parameter
+#**가 붙은 경우에는 키워드 파라미터로 인식
+#즉 함수호출시, 파라미터의 이름과 값을 함께 전달가능
+#**kwargs : key word arguments -->dictionary
+
+def test2(**kwargs):
+    for key, value in kwargs.items():
+        print('key',key, 'value', value)
+test2(a=1, b=2, c=3, d='apple')
+
+a='오늘 온도 : 30도, 강수확률 : 60%'
+print(a)
+
+a='오늘 온도 : {today_temp}도, 강수확률 : {today_prob}%, 내일 온도 : {tomorrow_temp}도'.format(tomorrow_temp=23, today_temp=25, today_prob=50)
+print(a)
+
+#lamda함수의 이해 및 사용
+#단일문으로 표현되는 익명함수
+#lambda 사용할 변수 : return할 값
+
+#1
+def square2(x):
+    return x**2
+square2(5)
+
+square = lambda x:x**2
+square(5)
+
+#2
+def add(x,y):
+    return x+y
+
+add2= lambda x,y:x+y
+add2(1,2)
+
+#3
+def str_len(s):
+    return len(s)
+str_len('goods')
+
+#4
+strings=['bob', 'charles', 'alexander3', 'teddy']
+strings.sort(key=str_len)
+print(strings)
+
+strings=['bob', 'charles', 'alexander3', 'teddy']
+strings.sort(key= lambda s:len(s))
+print(strings)
+
+#filter, map, reduce
+#filter(함수, 리스트) -- 리스트 각각원소에 함수 적용해서 참만 걸러냄
+#map(함수, 리스트) -- 리스트를 함수적용한 리스트로 만듬
+#reduce(함수, 리스트) --앞 두개 연산 --> y, y와 다음꺼 계산 -->k, 결국 하나로 줄임
+
+def even(n):
+    return n%2 ==0
+even(3)
+
+nums=[1,2,3,4,5,6,7,8,11,23]
+list(filter(even, nums))
+
+#filter
+nums=[1,2,3,4,5,6,7,8,11,23]
+list(filter(lambda n:n%2==0, nums))
+
+#map
+#주어진 리스트, 리스트의 제곱을 한 숫자로 새로운 리스트
+
+nums=[1,2,3,4,5,6]
+list(map(lambda n:n**2, nums))
+
+list(map(even, nums))
+
+list(map(lambda n:n%2==0, nums))
+
+import functools
+a=[1,3,5,8]
+#리스트내의 모든 합의 숫자
+functools.reduce(lambda x,y:x+y,a)
+
+functools.reduce(lambda x,y:x*y,a)
+
+//연습문제
+#1 주어진 숫자리스트의 평균을 구하는 함수 출력
+#2 해당 숫자가 소수인지 아닌지 판별
+#3 2부터 해당 숫자사이에 소수가 몇개인지 출력
+
+#1
+def mean(nums):
+#     j=0
+#     for i in args:
+#         j+=i
+    return sum(nums)/len(nums)
+mean([1,2,3,4,5])
+
+#2 
+def is_prime(num):
+    for i in range(2,num):
+        if num%i==0:
+            return False
+    return True
+      
+print(is_prime(103))
+
+def num_prime(num):
+    count=0
+    for j in range(2,num+1):
+       if is_prime(j):
+        count+=1
+    return count
+    
+      
+print(num_prime(103))
+```
 
 ## CH 05. 파이썬 모듈
 
