@@ -6,6 +6,8 @@
 
 list tuple dict set
 
+```python
+
 
 //파이썬 개발환경 설정
 # hello python
@@ -27,7 +29,6 @@ a=1
 b=1.1
 print(a == b)
 
-
 a = 9
 #a = a-3
 a-=3
@@ -43,7 +44,6 @@ It's nice day."""
 print(c)
 
 print('Hello World \n\n')
-
 
 a='Hello World'
 print(a[10])
@@ -215,6 +215,7 @@ print(a.union(b))
 print(a.intersection(b))
 print(a.difference(b))
 print(a.issubset(b))
+```
 
 ## CH 03. 조건문과 반복문
 
