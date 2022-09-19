@@ -678,6 +678,45 @@ print(num_prime(103))
 
 - 모듈의 이해 및 사용과 import 방법
 
+```python
+#모듈
+#다양한 기능들이 미리 함수로 구현되어 모듈 형태로 제공
+#request - HTTP 요청/ 응답 모듈
+#numpy - 수치해석 모듈
+#pandas - 데이터 분석 모듈
+
+import requests
+resp = requests.get('http://naver.com')
+resp.text
+
+import math
+
+math.pi
+
+math.cos(100)
+
+#from import
+
+from math import pi
+from math import cos
+
+pi
+
+cos(100)
+
+from math import *
+
+sin(100)
+
+math.e
+
+# *은 테스트용으로만 사용하길 권장, 겹칠 수 있음
+import math as m
+m.exp(3)
+
+m.cos(100)
+```
+
 ## CH 06. 클래스와 인스턴스
 
 1. 클래스 & 오브젝트 이해하기
