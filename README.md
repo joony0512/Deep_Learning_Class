@@ -1,4 +1,4 @@
-# Deep_Learning_300
+# Deep_Learning_Class
 >INTRO
 - Chapter 01. 딥러닝 소개	
 - Chapter 02. 딥러닝의 원리	
