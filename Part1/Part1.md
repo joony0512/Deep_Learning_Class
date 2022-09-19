@@ -223,6 +223,234 @@ print(a.issubset(b))
 - while
 - for
 
+```python
+#우선순위 NOT> AND > OR
+
+if 6>= 5 :
+    print('a')
+    print('b')
+    print('c')
+print('bbbbbbbbb')
+
+if 6== 5 :
+    print('a')
+    print('b')
+    print('c')
+print('bbbbbbbbb')
+
+a=10
+b=9
+c=8
+
+if a==10 and b==9 :
+    print('true')
+
+if a==10 or b==9 and c==12 :
+    print('true')
+
+if not a==10:
+    print('true')
+
+# 각 타입의 기본값들 --> False로 인식
+
+a=[]
+if a :
+    print('true')
+
+# 각 타입의 기본값들 --> False로 인식
+
+a=[]
+if a :
+    print('true')
+
+a=0
+if a :
+    print('true')
+
+a=1
+if a:
+    print('true')
+
+# 짝수면 2로 나눈값 출력, 홀수면 1더한값 출력
+
+a= 10
+if a % 2 ==0:
+    print(a/2)
+else:
+    print(a+1)
+
+//While
+
+a=[1,2,3,4,6,7,8,100]
+
+i=0 # 인덱스
+while i <len(a):
+    print('value',a[i],'index',i)
+    i +=1
+    
+print('hahaha')
+
+a=[1,2,3,4,6,7,8,100]
+
+i=0 # 인덱스
+while i <len(a):
+    if a[i] %2 :
+        print(a[i])
+    else:
+        print(a[i]/2)
+    i +=1
+
+a=[1,21,30,4,6,7,8,100]
+i=0
+while i <len(a):
+    
+    if a[i]>20:
+        break
+    print(a[i])
+    i+=1
+print('haha')
+
+a=7
+while a>0 :
+    a-=1
+    if a==5:
+        continue
+    print(a)
+
+#1-100 더하기
+
+num=1
+_sum =0
+while num <=100 :
+    _sum+=num
+    num+=1
+    print(_sum, num)
+print(_sum)
+
+//for
+
+a=[1, 2, 3, 4, 5]
+for i in a:
+    print(i, i**2)
+print('hahah')
+
+a='hello world'
+for character in a :
+    print(character)
+
+a=[1, 2, 3, 4, 5]
+for num in a:
+    if num%2==0:
+        print(num/2)
+    else:
+        print(num+1)
+
+a= {'Korea':"Seoul", "Japan":'tokyo',"Canada":"ottawa"}
+for key in a:
+    print(key, a[key])
+
+for key in a.values():
+    print(key)
+
+list(a.items())
+
+for key , value in a.items():
+    print(key, value)
+
+a= [1,2,3,4,5]
+for index, value in enumerate(a):
+    print(index, value)
+
+a=[100, 90, 80,70, 60, 50]
+for  num in a:
+    if num <80:
+        break
+    print(num)
+
+# 해당아이템을 건너뛰고싶을떄 사용
+a=[100, 90, 80,70, 60, 50]
+for  num in a:
+    if num >80:
+        continue
+    print(num)
+
+a=[1,2,4]
+for i in a :
+    for j in a :
+        print(i*j)
+
+for i in range(2,10):
+    for j in range(1,10):
+        print(i,'x',j,'=',i*j)
+
+i=1
+while i in range(1,10):
+    i+=1
+    j=1
+    while j in range(1,10):
+        print(i,'x',j, '=',i*j)
+        j+=1
+
+list(range(10))
+
+list(range(5,101,5))
+
+# 연습문제 1 구구단 for
+for i in range(2,9):
+    for j in range(1,9):
+        print(i,'x',j,'=',i*j)
+
+#연습문제 2
+nums = list(range(1,101))
+for i in nums:
+    if i%2==0 or i%11==0:
+        print(i)
+
+#연습문제 3 -최대최소구하기
+a=[22,1,3,4,7,98,21,55,87,99,19,20,45]
+_min=a[0]
+_max=a[0]
+
+for x in a:
+  
+    if x<_min:
+        _min=x
+print(_min)
+
+for y in a :
+    if y >_max:
+        _max=y
+print(_max)
+
+#한번에
+_min=a[0]
+_max=a[0]
+
+for x in a:
+  
+    if x<_min:
+        _min=x
+    if x>_max:
+        _max=x
+print(_min, _max)
+
+#연습문제 4
+a=[22,1,3,4,7,98,21,55,87,99,19,20,45]
+_sum =0
+for i in a:
+    _sum+=i
+print(_sum/len(a))
+
+#While
+i=0
+_sum=0
+
+while i < len(a):
+    _sum+=a[i]
+    i+=1
+print(_sum/len(a))
+```
+
 ## CH 04. 함수 이해 및 활용
 
 - def 이해 , 간단한 함수 만들기
