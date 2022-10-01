@@ -817,9 +817,436 @@ m.cos(100)
 5. method, static method 정의 및 사용하기
     
     ```python
+    #Method
+    #Counter : 1. 숫자를 하나 증가. 2. 숫자를 0으로 초기화
+    class Counter :
+        def __init__ (self):
+            self.num =0
+        def increment(self):
+            self.num +=1
+        def reset(self):
+            self.num = 0
+        def print_current_value(self):
+            print('현재값은 :',self.num)
+        
+    c1 = Counter()
+    c1.print_current_value()
+    c1.increment()
+    c1.increment()
+    c1.increment()
+    c1.print_current_value()
+    c1.reset()
     
+    c1.print_current_value()
+    
+    c2=Counter()
+    c2.increment()
+    c2.print_current_value()
+    ```
+    
+    # **method type**
+    
+    - instance : 객체로 호출
+        - 메쏘드는 객체 레벨로 호출되기 때문에, 해당 메쏘드를 호출한 객체에만 영향을 미침
+    - class method(static method) : class로 호출
+        - 클래스 메쏘드의 경우, 클래스 레벨로 호출되기 때문에, 클래스 멤버 변수만 변경가능
+    
+    ```python
+    class Math :
+        def add(self, a ,b):
+            return a + b
+        def multiply(self, a , b):
+            return a *b 
+    m=Math()
+    m.add(10, 20)
+    m.multiply(10,20)
+    ```
+    
+    ```python
+    #객체가 없고 return 만 함 class method라고 함
+    class Math :
+        @staticmethod
+        def add( a ,b):
+            return a + b
+        @staticmethod
+        def multiply(a , b):
+            return a *b 
+    Math.add(10, 20)
+    Math.multiply(10,20)
     ```
     
 6. 클래스 상속의 이해 ( 코드를 재사용하기 2)
+    
+    ```python
+    #06. 클래스 상속의 이해 (코드를 재사용하기 2)
+    
+    # 코드를 재사용할 수 있게된다.
+    # 상속 받고자 하는 대상인 기존 클래스는 (Parent, Super, Base class라고 부른다.)
+    # 상속 받는 새로운 클래스는 ( Chilrd, Sub, Derived class라고 부른다.)
+    # 의미적으로 is-a관계를 갖는다
+    
+    class Person():
+        def __init__(self, name, minute):
+            self.name = name
+            self.minute=minute
+    
+        def eat(self, food):
+            print('{}은 {}를 먹습니다.'.format(self.name, food))
+        
+        def sleep(self, minute):
+            print('{}은 {}분동안 잡니다.'.format(self.name, minute))
+        
+        def work(self, minute):
+            print('{}은 {}분동안 일합니다.'.format(self.name, minute))
+            
+    class Student:
+        pass
+    class Employee:
+        pass
+    bob = Person('Bob',25)
+    bob.eat('BBQ')
+    bob.sleep(30)
+    bob.work(60)
+    
+    //결과
+    Bob은 BBQ를 먹습니다.
+    Bob은 30분동안 잡니다.
+    Bob은 60분동안 일합니다.
+    ```
+    
+    ```python
+    #06. 클래스 상속의 이해 (코드를 재사용하시 2)
+    
+    # 코드를 재사용할 수 있게된다.
+    # 상속 받고자 하는 대상인 기존 클래스는 (Parent, Super, Base class라고 부른다.)
+    # 상속 받는 새로운 클래스는 ( Chilrd, Sub, Derived class라고 부른다.)
+    # 의미적으로 is-a관계를 갖는다
+    
+    class Person():
+        def __init__(self, name, minute):
+            self.name = name
+            self.minute=minute
+    
+        def eat(self, food):
+            print('{}은 {}를 먹습니다.'.format(self.name, food))
+        
+        def sleep(self, minute):
+            print('{}은 {}분동안 잡니다.'.format(self.name, minute))
+        
+        def work(self, minute):
+            print('{}은 {}분동안 일합니다.'.format(self.name, minute))
+            
+    class Student(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+            
+    class Employee(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+    bob = Student('Bob',25)
+    bob.eat('BBQ')
+    bob.sleep(30)
+    bob.work(60)
+    
+    //결과
+    Bob은 BBQ를 먹습니다.
+    Bob은 30분동안 잡니다.
+    Bob은 60분동안 일합니다.
+    ```
+    
 7. 클래스 연산자 재정의 이해 및 사용
+    
+    ```python
+    #method override
+    #부모클래스의 기능들 중 특정한 것들은 다르게 사용하고 싶을때 재정의 한다고 생각하면 됨.
+    class Person():
+        def __init__(self, name, minute):
+            self.name = name
+            self.minute=minute
+    
+        def eat(self, food):
+            print('{}은 {}를 먹습니다.'.format(self.name, food))
+        
+        def sleep(self, minute):
+            print('{}은 {}분동안 잡니다.'.format(self.name, minute))
+        
+        def work(self, minute):
+            print('{}은 {}분동안 일합니다.'.format(self.name, minute))
+            
+    class Student(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+            
+        def work(self, minute):
+            print('{}은 {}분동안 공부합니다'.format(self.name, minute))
+            
+    class Employee(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+        def work(self, minute):
+            print('{}은 {}분동안 업무를 합니다'.format(self.name, minute))
+            
+    bob = Employee('Bob',25)
+    bob.eat('BBQ')
+    bob.sleep(30)
+    bob.work(60)
+    
+    aron = Student('aron', 26)
+    aron.work(50)
+    
+    //결과
+    Bob은 BBQ를 먹습니다.
+    Bob은 30분동안 잡니다.
+    Bob은 60분동안 업무를 합니다
+    aron은 50분동안 공부합니다
+    ```
+    
+    # **super**
+    
+    ## **부모클래스의 기능도 사용하고 싶을때**
+    
+    ```python
+    class Person():
+        def __init__(self, name, minute):
+            self.name = name
+            self.minute=minute
+    
+        def eat(self, food):
+            print('{}은 {}를 먹습니다.'.format(self.name, food))
+        
+        def sleep(self, minute):
+            print('{}은 {}분동안 잡니다.'.format(self.name, minute))
+        
+        def work(self, minute):
+            print('{}은 {}분동안 일할 준비를 합니다.'.format(self.name, minute))
+            
+    class Student(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+            
+        def work(self, minute):
+            super().work(minute)
+            print('{}은 {}분동안 공부합니다'.format(self.name, minute))
+            
+    class Employee(Person):
+        def __init__(self, name, age):
+            self.name= name
+            self.age= age
+        def work(self, minute):
+            super().work(minute)
+            print('{}은 {}분동안 업무를 합니다'.format(self.name, minute))
+            
+    bob = Employee('Bob',25)
+    bob.eat('BBQ')
+    bob.sleep(30)
+    bob.work(60)
+    
+    //결과
+    Bob은 BBQ를 먹습니다.
+    Bob은 30분동안 잡니다.
+    Bob은 60분동안 일할 준비를 합니다.
+    Bob은 60분동안 업무를 합니다
+    ```
+    
+    - 좌표 계산 함수
+    
+    ```python
+    # point
+    # 2차원 좌표평면 (x, y)
+    # 두점의 덧셈, 뺄셈
+    # 한점과 숫자의 곱셈
+    # (0.0)부터의 거리
+    
+    class Point:
+        def __init__(self, x, y):
+            self.x=x
+            self.y=y
+        def print_pt(self):
+            print('({},{})'.format(self.x, self.y))
+    p1=Point(3, 4)
+    p2=Point(2, 7)
+    
+    p1.print_pt()
+    p2.print_pt()
+    
+    //결과
+    ```
+    
+    ```python
+    class Point:
+        def __init__(self, x, y):
+            self.x=x
+            self.y=y
+            
+        # 다른점을 pt라는 파라미터로 받아서 원래의 값에 더해 새로운 점을 만들고 그 값을 리턴함
+        def add(self, pt):
+            new_x = self.x + pt.x
+            new_y = self.y + pt.y
+            return Point(new_x, new_y)
+        
+        #기본 프린트 값을 위치가 아닌 내가 원하는 형태로 바꿈
+        def __str__(self):
+            return '({},{})'.format(self.x, self.y)
+    p1=Point(3, 4)
+    p2=Point(2, 7)
+    p3=p1.add(p2)
+    
+    print(p1)
+    print(p2)
+    print(p3)
+    
+    //결과
+    (3,4)
+    (2,7)
+    (5,11)
+    ```
+    
+    ```python
+    class Point:
+        def __init__(self, x, y):
+            self.x=x
+            self.y=y
+            
+        # 기본 연산자처럼 연산하게 만들어줌 앞뒤로 __ 붙임, 스페셜한 함수를 오버라이딩 하는것임
+        def __add__(self, pt):
+            new_x = self.x + pt.x
+            new_y = self.y + pt.y
+            return Point(new_x, new_y)
+        
+        # 기본 연산자처럼 연산하게 만들어줌 앞뒤로 __ 붙임 , 스페셜한 함수를 오버라이딩 하는것임
+        def __sub__(self, pt):
+            new_x = self.x - pt.x
+            new_y = self.y - pt.y
+            return Point(new_x, new_y)
+        
+        # 기본 연산자처럼 연산하게 만들어줌 앞뒤로 __ 붙임 , 스페셜한 함수를 오버라이딩 하는것임
+    
+        def __mul__(self, factor):
+            return Point(self.x * factor, self.y * factor)
+        
+    #     def get_x(self):
+    #         return self.x
+    #     def get_y(self):
+    #         return self.y
+        def __getitem__(self, index):
+            if index ==0:
+                return self.x
+            elif index ==1:
+                return self.y
+            else:
+                return -1
+        # 기본 연산자처럼 연산하게 만들어줌 앞뒤로 __ 붙임 , 스페셜한 함수를 오버라이딩 하는것임
+        def __len__(self):
+            return self.x**2 + self.y**2
+        
+        # 기본 연산자처럼 연산하게 만들어줌 앞뒤로 __ 붙임 , 스페셜한 함수를 오버라이딩 하는것임
+        def __str__(self):
+            return '({},{})'.format(self.x, self.y)
+    p1=Point(3, 4)
+    p2=Point(2, 7)
+    
+    p3 = p1 + p2
+    p4 = p1 - p2
+    
+    #p5 = p1.multiply(3)
+    p5 = p1 * 3
+    
+    #p6 = p1.length() 
+    
+    print(p1)
+    print(p2)
+    print(p3)
+    print(p4)
+    print(p5)
+    print(len(p1))
+    
+    #p[0]-->x, p[1]-->y
+    print(p1[0])
+    print(p1[1])
+    
+    //결과
+    (3,4)
+    (2,7)
+    (5,11)
+    (1,-3)
+    (9,12)
+    25
+    3
+    4
+    ```
+    
+    [https://docs.python.org/3/reference/datamodel.html?highlight=__add_#customizing-class-creation](https://docs.python.org/3/reference/datamodel.html?highlight=__add_#customizing-class-creation)
+    
 8. 클래스 연습문제 풀이
+    
+    # **연습문제**
+    
+    1. 복소수 클래스를 정의해본다
+    2. 덧셈, 뺄셈, 곱셈 연산자 지원
+    3. 길이(복소수의 크기) 지원
+    4. 복소수 출력 '1+4j'와 같이 표현
+    5. 비교연산 ==, != 지원
+    6. =, <=, <, > 연산 지원
+    7. 절대값 지원
+    
+    ```python
+    import math
+    class ComplexNumber:
+        def __init__(self, real, img):
+            self.real=real
+            self.img = img
+        def __add__(self, cn):
+            return ComplexNumber(self.real+cn.real, self.img + cn.img)
+        def __sub__(self, cn):
+            return ComplexNumber(self.real-cn.real, self.img - cn.img)
+        def __mul__(self, x):
+            if type(x) == int:
+                return ComplexNumber(self.real * x, self.img *x)
+            elif type(x) == ComplexNumber:
+                # (a+bj)*(c+dj)=(ac-bd)+(ad-bc)j
+                return ComplexNumber(self.real*x.real - self.img*x.img, self.real*x.img - self.img*x.real)
+        def __str__(self):
+            if self.img >= 0 :
+                return '{}+{}j'.format(self.real, self.img)
+            else :
+                return '{}-{}j'.format(self.real, abs(self.img))
+        def __eq__(self, cn):
+            return self.real==cn.real and self.img==cn.img
+        def __ne__(self, cn):
+            return not (self.real==cn.real and self.img==cn.img)
+        def __abs__(self):
+            return math.sqrt(self.real**2 + self.img**2)
+        def __len__(self):
+            return self.real**2 + self.img**2
+        
+    a=ComplexNumber(1,2)
+    print(a)
+    b=ComplexNumber(3,4)
+    print(a+b)
+    print(a-b)
+    print(a*3)
+    print(a*b)
+    print(a==b)
+    print(a!=b)
+    print(abs(a))
+    print(len(a))
+    
+    //결과
+    1+2j
+    4+6j
+    -2-2j
+    3+6j
+    -5-2j
+    False
+    True
+    2.23606797749979
+    5
+    
+    ```
+    
+    ## Ch 07. 정규표현식
