@@ -15,15 +15,28 @@
 - Ch 01. 딥러닝 네트워크의 연산
 	- CH00_01. Introduction
 	- CH00_02. CoLacoratory
+### Lecture.1 Artificial Neuron
 	- CH01_01. [이론강의]Parameteric Functions and Datasets
 	- CH01_02. [이론강의]Artificial_Neurons
 	- CH01_03. [구현]Affine_Functions
 	- CH01_04. [구현]Artificial_Neurons
+### Lecture.2 Dense Layers
 	- CH02_01. [이론]_Dense_Layers
 	- CH02_02. [이론]_The_First_Dense_Layer.
 	- CH02_03. [이론]_The_Second_Dense_Layer.
 	- CH02_04. [이론]_Minibatches_in_Dense_Layer.
 	- CH02_05. [구현]_Dense_Layers
+	- CH02_06. [구현]_Cascaded_Dense_Layers
+	- CH02_07. [구현]_Model_Implementation_with_Dense_Layers
+### Lecture.3 Sigmoid and Softmax
+	- CH03_01. [이론]_Logit_and_Sigmoid
+	- CH03_02. [이론]_Softmas_Layer
+	- CH03_03. [구현]_Binary_Classifiers
+	- CH03_04. [구현]_Multiclass_Classifiers
+### Lecture.4 Loss Function
+	- CH04_01. [이론]_Mean_Squared_Error
+	- CH04_02. [이론]_Binary_Cross_Entropy
+	- CH04_03. [이론]_Categorical_Cross_Entropy
   
   
   
