@@ -37,6 +37,8 @@
 	- CH04_01. [이론]_Mean_Squared_Error
 	- CH04_02. [이론]_Binary_Cross_Entropy
 	- CH04_03. [이론]_Categorical_Cross_Entropy
+	- CH04_04. [구현]_Toy_Datasets_for_Regression_and_Binary_Classification
+	- CH04_05. [구현]_Toy_Datasets_for_Multiclass_Classification
   
   
   
