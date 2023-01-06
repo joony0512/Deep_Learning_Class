@@ -1,18 +1,18 @@
 # Deep_Learning_Class
 >INTRO
-- Chapter 01. 딥러닝 소개	
-- Chapter 02. 딥러닝의 원리	
-- Chapter 03. 딥러닝 공부법
+## Chapter 01. 딥러닝 소개	
+## Chapter 02. 딥러닝의 원리	
+## Chapter 03. 딥러닝 공부법
 >Part 1
-- Ch 01. 환경설정
-- Ch 02. 데이터 타입과 컬렉션
-- Ch 03. 조건문과 반복문
-- Ch 04. 함수 이해 및 활용
-- Ch 05. 파이썬 모듈
-- Ch 06. 클래스와 인스턴스
-- Ch 07. 정규 표현식
+## Ch 01. 환경설정
+## Ch 02. 데이터 타입과 컬렉션
+## Ch 03. 조건문과 반복문
+## Ch 04. 함수 이해 및 활용
+## Ch 05. 파이썬 모듈
+## Ch 06. 클래스와 인스턴스
+## Ch 07. 정규 표현식
 >Part 2
-- Ch 01. 딥러닝 네트워크의 연산
+## Ch 01. 딥러닝 네트워크의 연산
 	- CH00_01. Introduction
 	- CH00_02. CoLacoratory
 ### Lecture.1 Artificial Neuron
@@ -39,7 +39,10 @@
 	- CH04_03. [이론]_Categorical_Cross_Entropy
 	- CH04_04. [구현]_Toy_Datasets_for_Regression_and_Binary_Classification
 	- CH04_05. [구현]_Toy_Datasets_for_Multiclass_Classification
-  
+### Lecture.5 Convolutional Layers
+	- CH05_01.[이론강의]_image_Tensors_and_Classical_Correlation.
+	- CH05_02.[이론강의]_Computations_of_Conv_Layers.
+	- CH05_03.[이론강의]_Conv_Layers_for_Multichannel_Input
   
   
   
