@@ -50,6 +50,11 @@
 	- CH06_01. [이론]_Pooling_Layers
 	- CH06_02. [구현]_Max_and_Average_Pooling_Layers
 	- CH06_03. [구현]_Padding_and_Strides
+### Lecture.7 Convolutional Neural Network
+	- CH07_01. [이론]_Convolutional Neural Network
+	- CH07_02. [구현]_Shapes_in_CNNs.
+	- CH07_03. [구현]_CNN_Implementation
+	- CH07_04. [구현]_LeNet_Implementation
 	
   
   
