@@ -56,7 +56,30 @@
 	- CH07_03. [구현]_CNN_Implementation
 	- CH07_04. [구현]_LeNet_Implementation
 	
-  
+	
+##Ch.02 Jacobian Matrix와 Backpropagation
+
+### Lecture.0 Orientation
+	- CH00_01. Orientation
+### Lecture.1 Why Bacpropagation and Jacobians?
+	- CH01_01. Trainable_Variables_and_Gradients
+	- CH01_02. Gradient-based_Learning_Implementation
+	- CH01_03. Backpropagation
+	- CH01_04. Why_Jacobian_Matrices
+### Lecture.2 Basic Differentiation
+
+	- CH02_01. Rate_of_Changes
+	- CH02_02. Differentiation_and_Derivatives
+	- CH02_03.Diff_of_Constant_and_Power_Functions
+	- CH02_04. Diff_of_Log_and_Exp_Functions
+	- CH02_05. Diff_of_Trigonometric_and_Piece-wise_Defined_Functions
+	- CH02_06. Constant_Multiplie_and_Sum_Rules
+	- CH02_07. LTI_System_and_Differentiation
+	- CH02_08. Product_and_Quotient_Rules
+	- CH02_09. Composite_Functions_and_Chain_Rule
+	- CH02_10.Backpropagation_Modules
+	
+
   
   
   
