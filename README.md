@@ -82,7 +82,18 @@
 
   
   
-  
+  ### Lecture.3 Multivariate Functions and Jacobians
+
+- CH03_01.Multivariate_Functions
+- CH03_02.Partial_Derivatives_and_Parameter_Updates
+- CH03_03.Partial_Derivatives_and_Gradients
+- CH03_04.Gradient_and_Parameter_Update
+- CH03_05.Jacobians_of_Affine_Functions
+- CH03_06.Artificial_Neuron_and_Backpropagation
+- CH03_07.Jacobians_of_Minibatches
+- CH03_08.Jacobians_of_MSE_and_BCEE
+- CH03_09.Jacobians_of_CCEE
+- CH03_10.Jacobians_of_Softmax
   
   
   
