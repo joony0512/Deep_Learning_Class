@@ -67,7 +67,6 @@
 	- CH01_03. Backpropagation
 	- CH01_04. Why_Jacobian_Matrices
 ### Lecture.2 Basic Differentiation
-
 	- CH02_01. Rate_of_Changes
 	- CH02_02. Differentiation_and_Derivatives
 	- CH02_03.Diff_of_Constant_and_Power_Functions
@@ -78,39 +77,44 @@
 	- CH02_08. Product_and_Quotient_Rules
 	- CH02_09. Composite_Functions_and_Chain_Rule
 	- CH02_10.Backpropagation_Modules
-	
+### Lecture.3 Multivariate Functions and Jacobians
+	- CH03_01.Multivariate_Functions
+	- CH03_02.Partial_Derivatives_and_Parameter_Updates
+	- CH03_03.Partial_Derivatives_and_Gradients
+	- CH03_04.Gradient_and_Parameter_Update
+	- CH03_05.Jacobians_of_Affine_Functions
+	- CH03_06.Artificial_Neuron_and_Backpropagation
+	- CH03_07.Jacobians_of_Minibatches
+	- CH03_08.Jacobians_of_MSE_and_BCEE
+	- CH03_09.Jacobians_of_CCEE
+	- CH03_10.Jacobians_of_Softmax
+### Lecture.4 Linear and Logistic Regression1
+	- CH04_01.Linear_Regression_(Theory)
+	- CH04_02.Linear_Regression_(Implementation, 1 Feature)
+	- CH04_03.Linear_Regression_(Implementation, N Feature)
+	- CH04_04.Logistic_Regression_(Theory)_and_Sigmoids_Params
+	- CH04_05.Properties_of_Logistic_Regression
+	- CH04_06.Logistic_Regression_(Implementation, 1 Feature)
+	- CH04_07.Logistic_Regression_(Implementation, n Feature)
+### Lecture.5 Vector Functions and Jacobians
 
-  
-  
-  ### Lecture.3 Multivariate Functions and Jacobians
-
-- CH03_01.Multivariate_Functions
-- CH03_02.Partial_Derivatives_and_Parameter_Updates
-- CH03_03.Partial_Derivatives_and_Gradients
-- CH03_04.Gradient_and_Parameter_Update
-- CH03_05.Jacobians_of_Affine_Functions
-- CH03_06.Artificial_Neuron_and_Backpropagation
-- CH03_07.Jacobians_of_Minibatches
-- CH03_08.Jacobians_of_MSE_and_BCEE
-- CH03_09.Jacobians_of_CCEE
-- CH03_10.Jacobians_of_Softmax
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+	- CH05_01.Vector_Functions
+	- CH05_02.Jacobians_of_Vector_Functions
+	- CH05_03.Affine_Functions_as_a_Vector_Function1
+	- CH05_04.Affine_Functions_as_a_Vector_Function2
+	- CH05_05.Jacobians_of_Softmax
+### Lecture.6 Element-Wise Operations and Jacobians
+	- CH06_01.Diagonal_Matrices
+	- CH06_02.Unary_Element-wise_Operations
+	- CH06_03.Jacobians_of_Activation_Functions
+	- CH06_04.Backpropagation_within_Dense_Layers
+	- CH06_05.Artificial_Neuron_and_Mini-batches
+	- CH06_06.Binary_Element-wise_Operations
+	- CH06_07.Backpropagation_within_Loss_Functions
+### Lecture.7 Linear and Logistic Regression2**
+	- CH07_01.Linear_Regression_with_Mini-batches_Theory
+	- CH07_02.Linear_Regression_with_Mini-batches_Implementation
+	- CH07_03.Logistic_Regression_with_Mini-batches
   
   
   
