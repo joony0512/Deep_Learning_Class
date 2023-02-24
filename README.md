@@ -12,7 +12,7 @@
 ### Ch 06. 클래스와 인스턴스
 ### Ch 07. 정규 표현식
 >>Part 2
-# Ch 01. 딥러닝 네트워크의 연산
+## Ch 01. 딥러닝 네트워크의 연산
 	- CH00_01. Introduction
 	- CH00_02. CoLacoratory
 ### Lecture.1 Artificial Neuron
@@ -57,7 +57,7 @@
 	- CH07_04. [구현]_LeNet_Implementation
 	
 	
-# Ch.02 Jacobian Matrix와 Backpropagation
+## Ch.02 Jacobian Matrix와 Backpropagation
 
 ### Lecture.0 Orientation
 	- CH00_01. Orientation
