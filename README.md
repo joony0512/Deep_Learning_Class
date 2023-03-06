@@ -111,11 +111,23 @@
 	- CH06_05.Artificial_Neuron_and_Mini-batches
 	- CH06_06.Binary_Element-wise_Operations
 	- CH06_07.Backpropagation_within_Loss_Functions
-### Lecture.7 Linear and Logistic Regression2**
+### Lecture.7 Linear and Logistic Regression2
 	- CH07_01.Linear_Regression_with_Mini-batches_Theory
 	- CH07_02.Linear_Regression_with_Mini-batches_Implementation
 	- CH07_03.Logistic_Regression_with_Mini-batches
-  
-  
-  
+
+### Lecture.8 Total Derivatives
+	- CH08_01.Multipath_of_Functions
+	- CH08_02.Total_Derivatives1
+	- CH08_03.Total_Derivatives2
+	- CH08_04.Vector_Functions_and_Total_Derivative
+	- CH08_05.Linear_Logistics_Regression_and_Total_Derivatives
+ 
+
+### Lecture.9 Expansion of Jacobians
+
+	- CH09_01.Introduction_to_Expanded_Jacobians
+	- CH09_02.Keypoints_to_Expanded_Jacobians
+	- CH09_03.Unary_Element-wise_Operations_and_Expanded_Jacobians 
+	- CH09_04.Binary_Element-wise_Operations_and_Expanded_Jacobians
   
