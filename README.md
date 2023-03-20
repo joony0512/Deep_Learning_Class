@@ -131,3 +131,38 @@
 	- CH09_03.Unary_Element-wise_Operations_and_Expanded_Jacobians 
 	- CH09_04.Binary_Element-wise_Operations_and_Expanded_Jacobians
   
+### Lecture.10 Expanded Jacobians in Deep Learning
+
+	- CH10_01.MSE_BCEE_and_Expanded_Jacobians
+	- CH10_02.CCEE_and_Expanded_Jacobians
+	- CH10_03.Softmax_and_Expanded_Jacobians
+	- CH10_04.Matrix_Multiplication_Revisited
+	- CH10_05.Matrix_Multiplication_and_Expanded_Jacobians
+	- CH10_06.Bias_Addition_and_Expanded_Jacobians
+	
+	
+### Lecture.11 Application of Expanded Jacobians
+
+	- CH11_01.MLP_Theory
+	- CH11_02.Training_MLP_Using_Expanded_Jacobians
+	
+# Basic Algebra
+
+## Chap.1 Algebraic Properties
+	- CH01_01 . Orientation
+	- CH01_02 . Algebraic Properties
+	- CH01_03 . Identities and Inverse
+	- CH01_04 . Equations
+## Chap.2 Sets
+
+	- CH02_01. Sets
+	- CH02_02. Usages of Set
+	- CH02_03. Cardimality of Sets
+	- CH02_04. Inclusion and Exclusion
+	- CH02_05. Unary Set Operation
+	- CH02_06. Intersections and Unions1
+	- CH02_07. Intersections and Unions2
+	- CH02_08. Set Differences1
+	- CH02_09. Set Differences2
+	- Ch02_10. Cartesian Products
+	- CH02_11. Partitions
