@@ -175,3 +175,10 @@
 	- CH01_03_Artificial Neural Network
 	- CH01_04_Training Neural Network
 	- CH01_05_Historical Review of Deep Learning
+## Ch 02_딥러닝 개발 준비
+	- CH02_01. Anaconda, Tensorflow, Pytorch 설치하기, Colab Jupyter Notebook 사용법
+	- CH02_02. Numpy Tutorial 1
+	- CH02_03. Numpy Tutorial 2
+	- CH02_04. Numpy Tutorial 3
+	- CH02_05. Data 시각화 - Matplotlib 1
+	- CH02_06. Data 시각화 - Matplotlib 2
