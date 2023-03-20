@@ -166,3 +166,12 @@
 	- CH02_09. Set Differences2
 	- Ch02_10. Cartesian Products
 	- CH02_11. Partitions
+	
+	
+# Part3.딥러닝/인공지능의 이해
+## Ch 01_인공지능에 대한 이해
+	- CH01_01_AI_Machine Learning
+	- CH01_02_Data
+	- CH01_03_Artificial Neural Network
+	- CH01_04_Training Neural Network
+	- CH01_05_Historical Review of Deep Learning
