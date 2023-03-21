@@ -145,7 +145,8 @@
 
 	- CH11_01.MLP_Theory
 	- CH11_02.Training_MLP_Using_Expanded_Jacobians
-	
+
+>> Basic Mathmatics	
 # Basic Algebra
 
 ## Chap.1 Algebraic Properties
@@ -167,7 +168,7 @@
 	- Ch02_10. Cartesian Products
 	- CH02_11. Partitions
 	
-	
+>> Part3
 # Part3.딥러닝/인공지능의 이해
 ## Ch 01_인공지능에 대한 이해
 	- CH01_01_AI_Machine Learning
