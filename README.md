@@ -183,3 +183,27 @@
 	- CH02_04. Numpy Tutorial 3
 	- CH02_05. Data 시각화 - Matplotlib 1
 	- CH02_06. Data 시각화 - Matplotlib 2
+>> Part4
+# Part4. 딥러닝 대표 3대장 프레임워크 기초
+## Ch 03_텐서플로우/케라스 이론 및 실습
+	- CH03_01. Tensorflow Keras Basic
+	- CH03_02. Data pipeline
+	- CH03_03. Model
+	- CH03_04. Training Validation
+	- CH03_05. Model save & restore Tensorboard
+## Ch 04_파이토치 이론 및 실습
+	- CH04_01. Pytorch Basic
+	- CH04_02. Dataset & DataLoader Model
+	- CH04_03. Training Validation Model save &restore
+	- CH04_04. Tensorboard
+>> Part5
+# Part5. 딥러닝 기초 알고리즘 및 최신 트렌드 알고리즘
+## Ch 01. ML기초
+	- CH01_01. AI vs 머신러닝 vs 딥러닝
+	- CH01_02.기계학습의 종류
+	- CH01_03.선형회귀, 로지스틱회귀, log-likelihood
+	- CH01_04.기계학습으로문제를해결하는일반적인순서
+	- CH01_05.[TheorySession1]경험적위험도(empirical risk)와ML의일반화(generalization)
+	- CH01_06.TheorySession2]BiasVarianceTrade-off
+	- CH01_07.[TheorySession3]정보이론
+	- CH01_08.[TheorySession4]CrossEntropy와MaximumLikelihood Estimation(MLE)
