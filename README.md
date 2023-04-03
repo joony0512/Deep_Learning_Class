@@ -204,6 +204,6 @@
 	- CH01_03.선형회귀, 로지스틱회귀, log-likelihood
 	- CH01_04.기계학습으로문제를해결하는일반적인순서
 	- CH01_05.[TheorySession1]경험적위험도(empirical risk)와ML의일반화(generalization)
-	- CH01_06.TheorySession2]BiasVarianceTrade-off
+	- CH01_06.[TheorySession2]BiasVarianceTrade-off
 	- CH01_07.[TheorySession3]정보이론
 	- CH01_08.[TheorySession4]CrossEntropy와MaximumLikelihood Estimation(MLE)
