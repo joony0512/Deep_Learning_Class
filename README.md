@@ -220,7 +220,7 @@
 	
 ## Ch 03. Regularization
 	- CH03_01.Regularization소개
-	- CH03_02.Noam기반Regularization
+	- CH03_02.Norm기반Regularization
 	- CH03_03.앙상블
 	- CH03_04-Regularization-Dropout
 	- CH03_05-Regularization-Early-stopping
