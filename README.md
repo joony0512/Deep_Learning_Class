@@ -207,3 +207,33 @@
 	- CH01_06.[TheorySession2]BiasVarianceTrade-off
 	- CH01_07.[TheorySession3]정보이론
 	- CH01_08.[TheorySession4]CrossEntropy와MaximumLikelihood Estimation(MLE)
+	
+## Ch 02. Feedforward Network
+	- CH02_01.Feedforward Network
+	- CH02_02.[실습0]-GoogleColab
+	- CH02_03.[실습1]-MLP구현(Pytorch)
+	- CH02_03-TF-01.MLP구현part1[PracticeSession1]
+	- CH02_03-TF-02.MLP구현part2[PracticeSession1]
+	- CH02_04.[TheorySession1]역전파
+	- CH02_05.[TheorySession2]왜피드포워드네트워크는충분히잘될까
+	- CH02_06.[심화학습]참고하면좋은자료들
+	
+## Ch 03. Regularization
+	- CH03_01.Regularization소개
+	- CH03_02.Noam기반Regularization
+	- CH03_03.앙상블
+	- CH03_04-Regularization-Dropout
+	- CH03_05-Regularization-Early-stopping
+	- CH03_06-Regularization-파라미터공유
+	- CH03_07-Regularization-Multi-taskLearning
+	- CH03_08-Regularization-AdversarialLearning
+	- CH03_09-Regularization-DataAugmentation
+	- CH03_10-Regularization-Dropout구현[PracticeSession1]
+	- CH03_11-Regularization-Early-stopping구현[PracticeSession2]
+	- CH03_10~11-TF-01.Dropout및Early-stopping구현[PracticeSession1-2]
+	- CH03_12-Regularization-L2-norm=Early-stopping[TheorySession1]
+	- CH03_13-Regularization-DeepDoubleDescent현상과Regularization[TheorySession2]
+	- CH03_14-Regularization-[심화학습]참고하면좋은자료들
+	
+
+
