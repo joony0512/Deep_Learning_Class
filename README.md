@@ -234,6 +234,23 @@
 	- CH03_12-Regularization-L2-norm=Early-stopping[TheorySession1]
 	- CH03_13-Regularization-DeepDoubleDescent현상과Regularization[TheorySession2]
 	- CH03_14-Regularization-[심화학습]참고하면좋은자료들
+
+## Ch 04. Optimization
+	- Ch04.Optimization
+	- CH04_01_최적화의개념
+	- CH04_02_경사하강법과뉴턴방법
+	- CH04_03_학습과최적화의차이와minibatch알고리즘
+	- CH04_04_최적화의난제들
+	- CH04_05_Stochasticgradientdescent
+	- CH04_06_Learningratescheduler
+	- CH04_07_Normalization
+	- CH04_08_보다나은최적화를위한다른알고리즘들_
+	- CH04_09.Weight&BiasWandb소개[PracticeSession0]
+	- CH04_10.Optimizer선택&LearningRateScheduler(part1)[PracticSession1]
+	- CH04_11.Optimizer선택&LearningRateScheduler(part2)[PracticeSession1]
+	- CH04_10~11-TF-01.Optimizer선택&LearningRateScheduler(part1)[PracticeSession1]
+	- CH04_10~11-TF-02.Optimizer선택&LearningRateScheduler(part2)[PracticeSession1]
+	- CH04_12.[심화학습]참고하면좋은자료들
 	
 
 
