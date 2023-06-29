@@ -254,3 +254,22 @@
 	
 
 
+## Ch 05. CNN
+	- CH05_01.ConvolutionalNeuralNetwork
+	- CH05_02.CNN의구성요소
+	- CH05_03.CNN,goingdeeper
+	- CH05_04.RecenttrendsofCNNmodels
+	- ch05_05_CNN의응용
+	- ch05_06_모델학습과정의병렬성(parallelism)
+	- ch05_07_CNN-ConvolutionalNeuralNetwork실습[PracticeSession1]
+	- CH05_07-TF-01.ConvolutionalNeuralNetwork실습(part1)[PracticeSession1]
+	- CH05_07-TF-02.ConvolutionalNeuralNetwork실습(part2)[PracticeSession1]
+	- ch05_08_EfficientNetFinetune[PracticeSession2]
+	- CH05_08-TF-01.EfficientNetFinetune(part1)[PracticeSession2]
+	- CH05_08-TF-02.EfficientNetFinetune(part2)[PracticeSession2]
+	- ch05_09_Pytorch-Lightning&Hydra-CNNpart1[PracticeSession3]
+	- ch05_10_Pytorch-Lightning&Hydra-CNNpart2[PracticeSession3]
+	- ch05_11_Pytorch-Lightning&Hydra-CNNpart3[PracticeSession3]
+	- CH05_09~11-TF-01.Pytorch-Lightning&Hydra-CNNpart1[PracticeSession3]
+	- CH05_09~11-TF-02.Pytorch-Lightning&Hydra-CNNpart2[PracticeSession3]
+	- ch05_12_[심화학습]참고하면좋은자료들
