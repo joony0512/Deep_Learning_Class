@@ -270,6 +270,6 @@
 	- ch05_09_Pytorch-Lightning&Hydra-CNNpart1[PracticeSession3]
 	- ch05_10_Pytorch-Lightning&Hydra-CNNpart2[PracticeSession3]
 	- ch05_11_Pytorch-Lightning&Hydra-CNNpart3[PracticeSession3]
-	- CH05_09~11-TF-01.Pytorch-Lightning&Hydra-CNNpart1[PracticeSession3]
-	- CH05_09~11-TF-02.Pytorch-Lightning&Hydra-CNNpart2[PracticeSession3]
+	- CH05_09~11-TF-01.Hydra-CNNpart1[PracticeSession3]
+	- CH05_09~11-TF-02.Hydra-CNNpart2[PracticeSession3]
 	- ch05_12_[심화학습]참고하면좋은자료들
