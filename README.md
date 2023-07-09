@@ -14,7 +14,7 @@
 >>Part 2
 ## Ch 01. 딥러닝 네트워크의 연산
 	- CH00_01. Introduction
-	- CH00_02. CoLacoratory
+	- CH00_02. CoLaboratory
 ### Lecture.1 Artificial Neuron
 	- CH01_01. [이론]Parameteric Functions and Datasets
 	- CH01_02. [이론]Artificial_Neurons
