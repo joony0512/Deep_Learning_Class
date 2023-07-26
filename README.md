@@ -290,11 +290,46 @@
 	- CH06_09-TF-02기계번역을위한Attention-basedsequence-to-sequence구현part2[PracticeSession2]
 	- CH06_10_RNN-[심화학습]참고하면좋은자료들
 
-## Ch07.<Generativemodelseries#1> Autoregressive vs Autoencoder vs EmbeddingvsSeq2Seq
-	- ch07_01_intro
-	- ch07_02_자가회귀(auto-regressive)모델
-	- ch07_03_오토인코더(auto-encoder)모델
-	- ch07_04_임베딩(embedding)모델
-	- ch07_05_Outro-ReturntoSeq2Seq
-	- ch07_06_[심화학습]참고하면좋은자료들
+## Ch07. <Generativemodelseries#1> Autoregressive vs Autoencoder vs EmbeddingvsSeq2Seq
+	- CH07_01_intro
+	- CH07_02_자가회귀(auto-regressive)모델
+	- CH07_03_오토인코더(auto-encoder)모델
+	- CH07_04_임베딩(embedding)모델
+	- CH07_05_Outro-ReturntoSeq2Seq
+	- CH07_06_[심화학습]참고하면좋은자료들
  
+## Ch08.트랜스포머(Transformer)
+	CH08_01_Transformer
+	CH08_02.VariationsofTransformer
+	CH08_03_기계번역을위한Transformersequence-to-sequence구현
+	CH08_03-TF-01.기계번역을위한Transformersequence-to-sequence구현part1
+	[PracticeSession1]
+	CH08_03-TF-02.기계번역을위한Transformersequence-to-sequence구현part2
+	[PracticeSession1]
+	CH08_04.[심화학습]참고하면좋은자료들
+## Ch09.PretrainedLarge-ScaleTransformer
+	CH09_01.PretrainedBigTransformer가나오기까지
+	CH09_02.Pre-trainedTransformerDecoder-Generativepre-training(GPT)
+	CH09_03.Pre-trainedTransformerEncoder-BERT을중심으로
+	CH09_04.HybridMethods
+	CH09_05.[심화학습]참고하면좋은자료들
+## Ch10.<Generativemodelseries#2>FlowModels
+	CH10_01.DeepGenerativeModel의종류
+	CH10_02.Flow와목적함수(objectivefunction)
+	CH10_03.VariationsofFlowModels
+	CH10_04.Dequantization
+	CH10_05.[심화학습]참고하면좋은자료들
+## Ch11.<Generativemodelseries#3>LatentVariableModels
+	CH11_01.잠재변수모델(LatentVariableModels)
+	CH11_02.변분추론(VariationalInference)
+	CH11_03.VariationalInference의종류
+	CH11_04.VariationalAutoencoder
+	CH11_05.VAE의발전된모델들
+	CH11_06.VAE구현part1[PracticeSession1]
+	CH11_07.VAE구현part2[PracticeSession1]
+	CH11_08.VAE구현part3[PracticeSession1]
+	CH11-06~08-TF-01-_Generativemodelseries#3_LatentVariableModels-VAE
+	구현-part1-[PracticeSession1]
+	CH11-06~08-TF-02-_Generativemodelseries#3_LatentVariableModels-VAE
+	구현-part2-[PracticeSession1]
+	CH11_09.[심화학습]참고하면좋은자료들
