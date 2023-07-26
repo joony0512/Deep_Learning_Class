@@ -273,3 +273,28 @@
 	- CH05_09~11-TF-01.Hydra-CNNpart1[PracticeSession3]
 	- CH05_09~11-TF-02.Hydra-CNNpart2[PracticeSession3]
 	- ch05_12_[심화학습]참고하면좋은자료들
+
+ ## Ch 06. RNN
+	- CH06_01_시퀀스(sequence)모델과RNN
+	- CH06_02_RNN-BackpropagationThroughTime과Long-termDependencych06_03_RNN-LSTM&GRU
+	- CH06_04_RNN-RecurrentNetwork의응용
+	- CH06_05_RNN-주의집중기반순환신경망(Attention-basedRNN)
+	- CH06_06_RNN-기계번역을위한LSTMsequence-to-sequence구현part1[PracticeSession1]
+	- CH06_07_RNN-기계번역을위한LSTMsequence-to-sequence구현part2[PracticeSession1]
+	- CH06_08_-RNN-기계번역을위한LSTMsequence-to-sequence구현part3[PracticeSession1]
+	- CH06_06~08-TF.기계번역을위한RNNsequence-to-sequence구현part1[PracticeSession1]
+	- CH06_06~08-TF.기계번역을위한RNNsequence-to-sequence구현part2[PracticeSession1]
+	- CH06_06~08-TF.기계번역을위한RNNsequence-to-sequence구현part2[PracticeSession1]
+	- CH06_09_RNN-기계번역을위한Attention-basedsequence-to-sequence구현[PracticeSession2]
+	- CH06_09-TF-01.기계번역을위한Attention-basedsequence-to-sequence구현part1[PracticeSession2]
+	- CH06_09-TF-02기계번역을위한Attention-basedsequence-to-sequence구현part2[PracticeSession2]
+	- CH06_10_RNN-[심화학습]참고하면좋은자료들
+
+## Ch07.<Generativemodelseries#1> Autoregressive vs Autoencoder vs EmbeddingvsSeq2Seq
+	- ch07_01_intro
+	- ch07_02_자가회귀(auto-regressive)모델
+	- ch07_03_오토인코더(auto-encoder)모델
+	- ch07_04_임베딩(embedding)모델
+	- ch07_05_Outro-ReturntoSeq2Seq
+	- ch07_06_[심화학습]참고하면좋은자료들
+ 
