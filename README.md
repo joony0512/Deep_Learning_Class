@@ -333,3 +333,37 @@
 	CH11-06~08-TF-02-_Generativemodelseries#3_LatentVariableModels-VAE
 	구현-part2-[PracticeSession1]
 	CH11_09.[심화학습]참고하면좋은자료들
+## Ch12.<Generativemodelseries#4>ImplicitModels
+	CH12_01.ImplicitModels(암시적모델)
+	CH12_02.GenerativeMomentMatchingNetwork
+	CH12_03.GenerativeAdversarialNetwork(GAN)
+	CH12_04.GAN의발전-part1
+	CH12_05.GAN의발전-part2
+	CH12_06.GAN의구현part1[PracticeSession1]
+	CH12_07.GAN의구현part2[PracticeSession1]
+	CH12_08.GAN의구현part3[PracticeSession1]
+	CH12_09.GAN의구현part4[PracticeSession1]
+	CH12-06~09-TF-01-_Generativemodelseries#4_ImplicitModels-GAN의구현
+	part1[PracticeSession1]
+	CH12-06~09-TF-02-_Generativemodelseries#4_ImplicitModels-GAN의구현
+	part2[PracticeSession1]
+	CH12_10.[심화학습]참고하면좋은자료들
+## Ch13.<Generativemodelseries#5>DistributionAlignment
+	CH13_01.DistributionAlignment
+	CH13_02.MarginalMatching&CycleConsistency(DualLearning)
+	CH13_03.Variations&Application
+	CH13_04.[심화학습]참고하면좋은자료들
+## Ch14.DeepMetricLearning
+	CH14_01.MetricLearning
+	CH14_02.DeepMetricLearning의종류
+	CH14_03.ContrastiveLearning의발달(SimCLR,SupervisedMethod)
+	CH14_04.[심화학습]참고하면좋은자료들
+## Ch15.DeepReinforcementLearning
+	CH15_01.ReinforcementLearning의핵심개념part1
+	CH15_02.ReinforcementLearning의핵심개념part2
+	CH15_03.Value-basedModel-freeRL
+	CH15_04.Policy-basedModel-freeRL
+	CH15_05.Off-policyPolicy-basedModel-freeRL
+	CH15_06.Model-basedRL
+	CH15_07.RepresentationLearningInDeepRL
+	CH15_08.[심화학습]참고하면좋은자료들
