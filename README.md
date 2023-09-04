@@ -367,3 +367,21 @@
 	CH15_06.Model-basedRL
 	CH15_07.RepresentationLearningInDeepRL
 	CH15_08.[심화학습]참고하면좋은자료들
+## Ch16.MetaLearning
+	CH16_01.LearningtoLearn
+	CH16_02.Metric-basedMetaLearning
+	CH16_03.Model-basedMetaLearning
+	CH16_04.Optimization-basedMetaLearning
+	CH16_05.MetaReinforcementLearning
+	CH16_06.[심화학습]참고하면좋은자료들
+## Ch17.DeepLearningProduction
+	CH17_01.AI모델의수명주기와MLOps
+	CH17_02.MLOps를위한Component&Tool
+	CH17_03.[심화학습]참고하면좋은자료들
+## Ch18.ResearchTopicsforProductions
+	CH18_01.ModelCompression(Quantization,Distillation,Pruning)
+	CH18_02.OvercomingDataProblem
+	CH18_03.Auto-ML
+	CH18_04.eXplainableAI(XAI)
+## Ch19.마치며
+	CH19_01.Next
