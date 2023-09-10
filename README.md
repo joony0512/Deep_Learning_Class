@@ -385,3 +385,24 @@
 	CH18_04.eXplainableAI(XAI)
 ## Ch19.마치며
 	CH19_01.Next
+
+>> Part6
+# Part6. 딥러닝 실전 프로젝트
+## Ch 01. 이미지 처리 실습
+	CH01_01. Oxford-IIT Pets Dataset 소개
+	CH01_02. Oxford-IIT Pets Dataset 소개
+	CH02_01. Data Loader 의 구현
+	CH02_02. Model 의 구현
+	CH02_03. Training Script 의 구현
+	CH02_04. Data Augmentation
+	CH02_05. Transfer Learning
+	CH02_06. TensorFlow Hub
+	CH02_07. Multiclass Classification
+	CH03_01. Image Segmentation 의 소개
+	CH03_02. Loss 함수의 구현
+	CH03_03. Data Loader 의 구현
+	CH03_04. UNet 소개
+	CH03_05. UNet 학습
+	CH03_06. TensorBoard 를 이용한 시각화
+	CH03_07. Learning Rate 스케줄링
+	CH03_08. Multiclass Segmentation
