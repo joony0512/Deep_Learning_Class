@@ -406,3 +406,11 @@
 	CH03_06. TensorBoard 를 이용한 시각화
 	CH03_07. Learning Rate 스케줄링
 	CH03_08. Multiclass Segmentation
+## Ch02.동영상처리실습
+	CH02_01.UCF11Dataset소개
+	CH02_02.UCF11DatasetEDA
+	CH02_03.Datapreparation-CNNapproach
+	CH02_04.Modeltraining-CNNapproach
+	CH02_05.RollingAverage의적용
+	CH02_06.DataPreparation-RNNapproach
+	CH02_07.Modeltraining-RNNapproach
