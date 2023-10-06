@@ -333,6 +333,7 @@
 	CH11-06~08-TF-02-_Generativemodelseries#3_LatentVariableModels-VAE
 	구현-part2-[PracticeSession1]
 	CH11_09.[심화학습]참고하면좋은자료들
+ 
 ## Ch12.<Generativemodelseries#4>ImplicitModels
 	CH12_01.ImplicitModels(암시적모델)
 	CH12_02.GenerativeMomentMatchingNetwork
@@ -434,21 +435,35 @@
 # Part 07. 이미지분류기초
 ## Ch01.RNN으로손글씨이미지분류하기
 	CH01.기초지식개요RNN분류의특색
-	CH02.도입전기본처리-문제01~05
-	CH03.전처리-문제06~10
-	CH04.시각화방법-문제11~15
-	CH05.데이터오그멘테이션-문제16~26
-	CH06.모델링-문제27~31
-	CH07.결과확인-문제32~34
-	CH08.모델저장및로드,다운-문제35~38
+	CH02.EDA
+	CH03.전처리
+	CH04.시각화방법
+	CH05.Data_augmentation
+	CH06.모델링
+	CH07.결과확인
+	CH08.모델저장및로드,다운
+ 
 ## Ch02.인물사진에서성별과표정분석하기
 	CH01.기초지식개요-멀티아웃풋모델
-	CH02.도입전기본처리-문제01~10
-	CH03.전처리-문제11~14
-	CH04.시각화방법-문제15~20
-	CH05.모델링-문제21~25
-	CH06.결과확인-문제26~27
-	CH07.멀티모델링-문제28~32
-	CH08.결과확인-문제33~34
-	CH09.모델분리-문제35~38
-	CH010.통합모델저장및로드,다운-문제39~42
+	CH02.EDA
+	CH03.전처리
+	CH04.시각화방법
+	CH05.모델링
+	CH06.결과확인
+	CH07.멀티모델링
+	CH08.결과확인
+	CH09.모델분리
+	CH010.통합모델저장및로드,다운
+
+ ## Ch03.여러의상사진에서옷종류구분하기
+	CH01.기초지식개요멀티레이블분류란
+	CH02.EDA
+	CH03.전처리
+	CH04.시각화방법
+	CH05.Data_augmentation1
+	CH06.Data_augmentation2
+	CH07.Data_augmentation3
+	CH08.모델링
+	CH09.결과확인
+	CH010.멀티레이블모델링
+	CH011.모델저장및로드,다운
