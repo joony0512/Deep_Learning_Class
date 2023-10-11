@@ -467,3 +467,53 @@
 	CH09.결과확인
 	CH010.멀티레이블모델링
 	CH011.모델저장및로드,다운
+
+>> Part8
+# Part8. 이미지 변형 기초
+## Ch01.손상된의류이미지화질복구하기
+	CH01.기초지식개요 - AutoEncoder
+	CH02.EDA
+	CH03.전처리
+	CH04.시각화방법
+ 	CH05.Data_augmentation
+	CH06.모델링
+	CH07.결과확인
+	CH08.모델저장 및 로드,다운
+## Ch02.인물사진에서배경없애기
+	CH01.기초지식개요 - AutoEncoder 및 Segment
+	CH02.EDA
+	CH03.전처리
+	CH04.AutoEncoder modeling
+	CH05.결과확인
+ 	CH06.Unet modeling
+	CH07.결과확인
+	CH08.모델저장 및 로드,다운
+## Ch03.칼라사진을흑백사진으로변경하기
+	CH01.기초지식개요 - AutoEncoder 및 colorization
+	CH02.EDA
+	CH03.전처리
+ 	CH04.시각화방법
+	CH05.modeling
+	CH06.결과확인
+ 	CH07.더 심플한 modeling
+	CH08.결과확인
+ 	CH09.극단적선형흑백모델
+	CH10.모델저장 및 로드,다운
+## Ch04.흑백사진을칼라사진으로변경하기
+	CH01.기초지식개요 - AutoEncoder 및 colorization
+	CH02.EDA
+	CH03.전처리
+ 	CH04.시각화방법
+	CH05.modeling
+	CH06.결과확인
+ 	CH07.modeling 2
+	CH08.결과확인
+ 	CH09.모델저장 및 로드,다운
+### Ch05.학종이만한사진을고화질로확대하기
+	CH01.기초지식개요 - AutoEncoder 및 colorization
+	CH02.EDA
+	CH03.전처리
+ 	CH04.시각화방법
+	CH05.modeling
+	CH06.결과확인
+	CH07.모델저장 및 로드,다운
