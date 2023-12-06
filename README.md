@@ -509,7 +509,7 @@
  	CH07.modeling 2
 	CH08.결과확인
  	CH09.모델저장 및 로드,다운
-### Ch05.학종이만한사진을고화질로확대하기
+## Ch05.학종이만한사진을고화질로확대하기
 	CH01.기초지식개요 - AutoEncoder 및 colorization
 	CH02.EDA
 	CH03.전처리
@@ -520,3 +520,25 @@
 
 >> Part10
 # Part10. 중급 이미지 인식 & 분류모델링 (객체탐지/영상인식)
+## Ch01.ImageClassfication 성능개선 및 구현
+	CH01_00.ImageClassfication이론
+	CH01_01.데이터다운로드및전처리
+	CH01_02.PretrainedMobileNetV3로Training하기
+	CH01_03.Model성능올리기
+ 
+## Ch02.ImageLocalization 성능개선 및 구현
+	CH02_00.ImageLocalization이론
+	CH02_01.데이터다운로드및전처리
+	CH02_02.tfrecord파일만들기
+	CH02_03.ImageLocalization모델작성및학습
+	CH02_04.Multi-taskLearning을활용하여성능개선하기
+ ## Ch03.ObjectDetection 성능개선 및 구현
+	CH03_00.ObjectDetection이론
+	CH03_01.Data다운로드및확인
+	CH03_02.DataAugmentation
+	CH03_03.AnchorBox정보만들기
+	CH03_04.LabelEncoding
+	CH03_05.Dataset만들기
+	CH03_06.RetinaNetModel만들기
+	CH03_07.Model학습하기
+	CH03_08.학습된Model로결과확인하기
